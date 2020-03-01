@@ -1,0 +1,20 @@
+.Link{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    list-style: none;
+}
+
+.Link a{
+    text-decoration: none;
+    color: #333333;
+}
+
+.Link a:hover,
+.Link a:active{
+    color: #B11226;
+    transition: ease-in 0.2s all;
+}
+

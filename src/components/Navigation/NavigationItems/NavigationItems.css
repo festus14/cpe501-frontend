@@ -1,0 +1,10 @@
+.Links{
+    position: absolute;
+    width: 30%;
+    height: 15%;
+    left: 0;
+    top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
