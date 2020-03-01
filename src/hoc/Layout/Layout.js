@@ -1,5 +1,4 @@
 import React, { Component, Fragment } from 'react';
-import { Route } from 'react-router-dom';
 
 import Toolbar from '../../components/Toolbar/Toolbar';
 

@@ -1,0 +1,38 @@
+.Container{
+    position: absolute;
+    min-width: 100vw;
+    min-height: 100vh;
+    left: 0;
+    top: 0;
+    background: url(../../assets/images/backgroundImg.png);
+    background-size: cover;
+    width: 100%;
+}
+
+.MiddleContent{
+    width: 50%;
+    text-align: center;
+    margin: 13% auto;
+    color: #FFFFFF;
+}
+
+.Title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 84px;
+    width: 100%;
+}
+
+.Body{
+    font-family: Roboto;
+    font-style: normal;
+    /* font-weight: bold; */
+    font-size: 32px;
+    line-height: 56px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    margin-bottom: 12%;
+}
