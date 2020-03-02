@@ -6,3 +6,7 @@
     border: none;
     font-weight: bold;
 }
+
+.Button:hover{
+    cursor: pointer;
+}

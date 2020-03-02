@@ -5,6 +5,9 @@
     font-size: 20px;
     line-height: 24px;
     list-style: none;
+    white-space: nowrap;
+    padding: 0 1.5%;
+    box-sizing: border-box;
 }
 
 .Link a{
@@ -15,6 +18,6 @@
 .Link a:hover,
 .Link a:active{
     color: #B11226;
-    transition: ease-in 0.2s all;
+    transition: ease-in 0.1s all;
 }
 

@@ -5,11 +5,13 @@ import classes from './NavigationItems.css';
 
 const navigationItems = (props) => (
     <ul className={classes.Links}>
-        <NavigationItem link="/" exact>Home</NavigationItem>
-        <NavigationItem link="/about-us" exact>About Us</NavigationItem>
-        <NavigationItem link="/sign-in" exact>Sign In</NavigationItem>
-        <NavigationItem link="/log-out" exact>Log Out</NavigationItem>
+        <NavigationItem link="/">Home</NavigationItem>
+        <NavigationItem link="/about-us">About Us</NavigationItem>
+        <NavigationItem link="/sign-in">Sign In</NavigationItem>
+        <NavigationItem link="/sign-up">Sign Up</NavigationItem>
     </ul>
 )
 
-export default navigationItems;
+export default navigationItems; 
+
+
