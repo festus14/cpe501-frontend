@@ -1,0 +1,12 @@
+.Container{
+    position: absolute;
+    min-width: 50vw;
+    min-height: 100vh;
+    right: 0;
+    top: 0;
+    background: white;
+    background-size: cover;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 15px;
+}

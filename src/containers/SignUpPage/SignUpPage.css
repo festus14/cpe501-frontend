@@ -1,0 +1,65 @@
+.RegisterText{
+    padding: 3% 5% 0;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    color: #333333;
+}
+
+.RegisterText p {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    color: #333333;
+}
+
+.FormContainer{
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.InputItemContainer{
+    margin-bottom: 6%;
+}
+
+.InputItemContainer p{
+    color: #716C6C;
+	font-family: 'Montserrat';
+	font-weight:normal;
+	font-size:16px;
+	margin-bottom: 0.2rem;
+    text-align: left;
+}
+
+.NameText{
+    width:100%;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom: 1px solid #828282;
+    height:28px;
+}
+
+button{
+    margin-top: 3%;
+}
+
+.ForgotPassword p a{
+    color: #716C6C;
+    text-decoration:none;
+    font-family: 'Montserrat';
+    font-size:15px;
+}
+
+.AccountQuestion p{
+    font-family: 'Montserrat';
+    font-size: 15px;
+    color: #716C6C;
+}
+
+.AccountQuestion p span a{
+    color: #B11226;
+    text-decoration:none;
+}

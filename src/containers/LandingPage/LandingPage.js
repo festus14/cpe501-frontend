@@ -1,22 +1,23 @@
 import React, { Component } from 'react';
-import Toolbar from '../../components/Toolbar/Toolbar';
-import Button from '../../components/UI/Button/Button';
+import { Route, Switch } from 'react-router-dom';
 
-import classes from './LandingPage.css'
+import signInPage from '../SignInPage/SignInPage';
+import signUpPage from '../SignUpPage/SignUpPage';
+import LandingContent from '../../components/LandingContent/LandingContent';
+
+
+// import classes from './LandingPage.css'
 
 export default class LandingPage extends Component {
     render() {
+        console.log(this.props)
         return (
-            <div className={classes.Container}>
-                <Toolbar />
-                <main className={classes.MiddleContent}>
-                    <div className={classes.Title}>Unilag Course Allocation System</div>
-                    <div className={classes.Body}>Course allocation made easy with our algorithm</div>
-                    <Button height={60} width={150} fontSize={16}>Get Started</Button>
-                </main>
-                <nav>
-                    <p style={{color: '#1F1E1E'}}>Copyright &copy; 2020 SEES Class '2020. All Rights Reserved</p>
-                </nav>
+            <div>
+                <Route path='/' component={LandingContent}/>
+                <Switch>
+                    <Route path='/sign-in' component={signInPage} />
+                    <Route path='/sign-up' component={signUpPage} />
+                </Switch>
             </div>
         )
     }
